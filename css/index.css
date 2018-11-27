@@ -1,0 +1,352 @@
+body {
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
+}
+li {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+img {
+	width: 100%;
+}
+
+.heart {
+	padding-top: 50px;
+}
+
+.container-fluid{
+	max-width: 960px;
+	margin: 0 auto;
+
+}
+
+/*logo*/
+
+.logo {
+	padding: 0;
+}
+
+.logo-box {
+	width: 150px;
+	background: -webkit-linear-gradient(left, #1c1a4c, #3177b9);
+}
+
+.logo span {
+	display: block;
+	color: #fff;
+}
+
+.logo1 {
+	background: #fff;
+	padding: 25px 10px;
+	border-bottom-right-radius: 30px;
+}
+
+.logo2 {
+	height: 0;
+	background: -webkit-linear-gradient(left, #1c368c, #3177b9);
+	line-height: 50px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+
+.logo3 {
+	height: 50px;
+	background: -webkit-linear-gradient(left, #1c1a4c, #3177b9);
+	line-height: 50px;
+	padding-left: 10px
+}
+
+
+/*移动端LOGO*/
+
+.logo-m {
+	width: 100px;
+	margin: 15px 0 0 10px;
+}
+
+
+/*主题一*/
+
+.theme1 {
+	background: url(../img/ultrasound-l.jpg) no-repeat;
+	padding-top: 6%;
+	padding-bottom: 10%;
+	background-size: cover;
+}
+.theme1-text{
+	max-width: 960px;
+	margin:0 auto;
+}
+.theme1 .theme1-text h2 {
+	font-size: 40px;
+	font-weight: bold;
+}
+.theme1-text p{
+	font-size: 18px;
+	max-width: 350px;
+}
+.more a {
+	border-radius: 5px;
+	padding: 10px 25px;
+	background: #1B6D85;
+	text-align: center;
+	color: #fff;
+}
+
+
+/*主题一移动端*/
+.theme1-m {
+	padding-bottom: 20px;
+}
+.theme1-m .theme1-text{
+	padding-left:10px ;
+}
+.theme1-m .theme1-text h4{
+	font-weight: bold;
+}
+.theme1-m .theme1-text p {
+	font-size: 14px;
+	max-width: 300px;
+}
+
+
+
+/*主题二*/
+
+.theme2 {
+	background: url(../img/li-l.jpg) no-repeat;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	background-size: cover;
+	color: #fff;
+}
+.theme2 .theme1-text h1{
+	font-weight: bold;
+}
+.theme2 .more a {
+	border-radius: 5px;
+	padding: 10px 25px;
+	background: rgba(9, 117, 117, 0.8);
+	text-align: center;
+	color: #fff;
+}
+
+
+/*主题二移动端*/
+
+.theme2-m {
+	padding-bottom: 20px;
+}
+.theme2-m .theme1-text{
+	padding-left:10px ;
+}
+.theme2-m .theme1-text h4{
+	font-weight: bold;
+}
+
+.theme2-m .theme1-text p {
+	font-size: 14px;
+	width: 300px;
+}
+
+
+/*主题 三*/
+
+.theme3 {
+	background: url(../img/philips-watch-left-l.jpg) no-repeat;
+	padding-top: 6%;
+	padding-bottom: 10%;
+	background-size: cover;
+	text-align: right;
+	color: #fff;
+}
+
+.theme3 .theme1-text h1 {
+	font-weight: bold;
+	/*text-shadow: 2px 2px 2px #ccc;*/
+}
+
+.theme3 .more a {
+	border-radius: 5px;
+	padding: 10px 25px;
+	background: #1B6D85;
+	text-align: center;
+	color: #fff;
+	float: right;
+}
+
+
+/*主题三移动端*/
+
+.theme3-m {
+	padding-bottom: 20px;
+}
+.theme3-m .theme1-text{
+	padding: 0px 10px;
+}
+.theme3-m .theme1-text h4 {
+	font-weight: bold;	
+}
+
+
+/*注册*/
+
+.reg {
+	background: #efefef;
+}
+
+.reg-left ul li{
+	color: green;
+	margin: 10px 0px;
+	margin-left: -35px;
+}
+.reg span {
+	display: block;
+	margin: 5px 0;
+}
+
+.reg span input {
+	display: inline;
+}
+
+.reg input {
+	margin-bottom: 5px;
+	display: block;
+}
+.club .club-box {
+	background: url(../img/LM-MyPhilips-Banner.jpg) no-repeat;
+	padding-top: 10%;
+	padding-bottom: 40%;
+	background-size: 100%;
+}
+
+.club-box h2,h3 {
+	padding: 5px 10px;
+}
+
+
+/*搜索*/
+
+.search {
+	background: #15a9d4;
+}
+
+.search-box form {
+	position: relative;
+}
+
+.search-icon {
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+
+/*站点地图*/
+
+.siteMap {
+	margin:0 auto;
+	background: #122B40;
+	color: #fff;
+}
+
+.siteMap h2 {
+	font-size: 24px;
+}
+.siteMap li a {
+	color: #fff;
+	margin-left: -35px;
+}
+.siteMap1{
+	max-width: 960px;
+	margin:0 auto;
+}
+
+/*版权*/
+
+.footer {
+	background: -webkit-linear-gradient(top, #022573, #035086);
+}
+.footer1{
+	max-width: 960px;
+	margin:0 auto;
+}
+.weibo {
+	color: #15A9D4;
+	margin-top: 20px;
+}
+
+.weibo img {
+	width: 30px;
+	display: block;
+}
+
+.weibo2 {
+	color: #15A9D4;
+	margin-top: 50px;
+	max-width: 100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.weibo2 img {
+	display: inline-block;
+	width: 30px;
+}
+
+.footer-logo {
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.menus {
+	width: 195px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.menus .btn-default{
+	padding: 10px;
+	border-radius:6px ;
+}
+.menus ul li{
+	border-bottom: 1px solid #D4D4D4;
+	padding: 5px;
+}
+.copyrigt {
+	text-align: center;
+}
+
+.copyrigt ul {
+	padding-top: 20px;
+}
+
+.copyrigt li {
+	display: inline-block;
+}
+
+.copyrigt li a {
+	color: #fff;
+	padding: 0px 5px;
+	border-right: 1px solid #fff;
+}
+
+
+
+.copyrigt p {
+	color: #fff;
+}
+

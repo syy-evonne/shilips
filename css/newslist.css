@@ -1,0 +1,112 @@
+.lefts{
+	padding: 10px;
+}
+.lefts .nav a{
+	font-size:18px;
+	font-weight: bold;
+	color: #022573;
+}
+.lefts .tab-pane{
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	padding: 10px;
+}
+.lefts dl{
+	border-bottom: 1px dashed #ccc;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.lefts dt{
+	float: left;
+	max-width: 200px;
+	margin-right:15px;
+}
+.lefts h3{
+	max-width:calc(100% - 50px);
+	font-size: 16px;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.lefts p{
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	color: #5E5E5E;
+}
+.lefts .more a{
+	float: right;
+	background: #15A9D4;
+	margin-right: 5px;
+	width: 120px;
+	padding: 8px 15px;
+	display: block;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+}
+.paging{
+	padding: 10px 0;
+}
+.paging ul li{
+	float: left;
+	background: #EFEFEF;
+	margin:0 5px;
+}
+.paging .active{
+	background: #022573;
+}
+.paging .active a{
+	color: #fff;
+}
+.paging ul li a{
+	color: #022573;
+	padding: 0px 10px;
+	text-decoration: none;
+}
+
+
+.rights h3{
+	font-size: 18px;
+	font-weight: bold;
+	color: #022573;
+}
+.News{
+	box-shadow: 2px 2px 2px #ccc;
+	overflow: hidden;
+	padding:10px;
+	margin-bottom: 10px;
+}
+.News h4{
+	font-size: 16px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-weight: normal;
+}
+.News dt{
+	float: left;
+	width: 37%;
+	margin-right: 10px;
+}
+.rights .more a{
+	float: right;
+	background: #15A9D4;
+	margin-right: 5px;
+	width: 100px;
+	padding: 5px 0;
+	display: block;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+}
+
+/*浜嗚В*/
+.site{
+	background: #122B40;
+	color: #fff;
+}
+.site a{
+	color: #fff;
+	text-decoration:none ;
+}
